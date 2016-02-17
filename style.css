@@ -1,0 +1,28 @@
+.jumbotron {
+	color: rgb(102,153,0);
+	font-size: 45px
+	}
+	
+.container {
+	font-family: Arial, Helvetica;
+	}
+	
+.nav a{
+  font-family: Lucida Console;
+  font-size: 20px;
+  color: #5a5a5a;
+  border: 3px solid black;
+  padding:10px;
+  margin-left: auto;
+  text-transform: uppercase;
+  }
+  
+ .nav li {
+  display: inline;
+  position: fixed;
+  
+}
+
+.netbody {
+	vertical-align:top;
+}
