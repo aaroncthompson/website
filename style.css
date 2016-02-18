@@ -1,28 +1,36 @@
-.jumbotron {
-	color: rgb(102,153,0);
-	font-size: 45px
-	}
+/* HEADER START */
+
+* {
 	
-.container {
-	font-family: Arial, Helvetica;
-	}
-	
-.nav a{
-  font-family: Lucida Console;
-  font-size: 20px;
-  color: #5a5a5a;
-  border: 3px solid black;
-  padding:10px;
-  margin-left: auto;
-  text-transform: uppercase;
-  }
-  
- .nav li {
-  display: inline;
-  position: fixed;
-  
 }
 
-.netbody {
-	vertical-align:top;
+#header {
+	line-height: 48px;
 }
+
+#header nav {
+	display:block;
+	border-bottom: 1px solid #d2d6d5;
+}
+
+#header nav.top {
+	background: #f4f4f4; /* Sets the background in .top to a nice, light grey. */
+	color: #a6abab; /* Sets the text in .top to a nice, complementing darker grey. */
+	font-family: Tahoma, Helvetica, Arial; /* Sets .top a nice, clean-but-fun font */
+}
+
+#header nav.top .slogan {
+	float: left;
+	margin-left: 20px;
+}
+
+#header nav.top .quickcontact a {
+	color: #313131; /* Sets the link text to a nice, complementing even darker grey. */
+}
+
+li {
+	list-style: none;
+}
+
+.right{ float:right; }
+
