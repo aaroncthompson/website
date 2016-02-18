@@ -1,11 +1,7 @@
 /* HEADER START */
 
 * {
-	
-}
-
-#header {
-	line-height: 48px;
+	margin: 0px;
 }
 
 #header nav {
@@ -17,19 +13,15 @@
 	background: #f4f4f4; /* Sets the background in .top to a nice, light grey. */
 	color: #a6abab; /* Sets the text in .top to a nice, complementing darker grey. */
 	font-family: Tahoma, Helvetica, Arial; /* Sets .top a nice, clean-but-fun font */
+	line-height: 47px;
 }
 
 #header nav.top .slogan {
-	float: left;
 	margin-left: 20px;
 }
 
 #header nav.top .quickcontact a {
 	color: #313131; /* Sets the link text to a nice, complementing even darker grey. */
-}
-
-li {
-	list-style: none;
 }
 
 .right{ float:right; }
