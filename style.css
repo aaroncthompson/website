@@ -5,7 +5,6 @@
 }
 
 #header nav {
-	display:block;
 	border-bottom: 1px solid #d2d6d5;
 }
 
@@ -13,11 +12,12 @@
 	background: #f4f4f4; /* Sets the background in .top to a nice, light grey. */
 	color: #a6abab; /* Sets the text in .top to a nice, complementing darker grey. */
 	font-family: Tahoma, Helvetica, Arial; /* Sets .top a nice, clean-but-fun font */
-	line-height: 47px;
+	line-height: 47px; /* Makes the top bar nice and tall. */
 }
 
 #header nav.top .slogan {
-	margin-left: 20px;
+	padding-left: 20px; /* Puts some space between it and the edge of the window */
+	padding-right: 20px; /* Puts some space between it and the edge of the window */
 }
 
 #header nav.top .quickcontact a {
