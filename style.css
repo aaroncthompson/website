@@ -4,8 +4,27 @@
 	margin: 0px;
 }
 
+.left{ float:left; } /* Left-aligns anything with this class assigned. */
+.right{ float:right; } /* Right-aligns anything with this class assigned. */
+.active{ font-weight:bold; } /* Just makes anything tagged "active" bold. */
+a { color: #313131; } /* Sets all link text to a nice, complementing near-black. */
+
+li {
+	list-style: none; /* Removes the bullet point from list elements */
+	display: inline; /* Places list elements horizontally */
+}
+
+body {
+	background: #e1e3e4; /* Sets the page's background color. */
+	font-family: Trebuchet MS, Palatino Linotype, Arial; /* Nice font. */
+}
+
+#header {
+	font-family: Trebuchet MS, Palatino Linotype, Arial; /* Nice font. */
+}
+
 #header nav {
-	border-bottom: 1px solid #d2d6d5;
+	border-bottom: 1px solid #d2d6d5;; /* Gives the "nav" bar a nice, dark grey bottom border. */
 }
 
 #header nav.top {
@@ -13,16 +32,49 @@
 	color: #a6abab; /* Sets the text in .top to a nice, complementing darker grey. */
 	font-family: Tahoma, Helvetica, Arial; /* Sets .top a nice, clean-but-fun font */
 	line-height: 47px; /* Makes the top bar nice and tall. */
+	font-size: 15px; /* Sets top bar font size to 15 */
 }
 
-#header nav.top .slogan {
+#header nav {
 	padding-left: 20px; /* Puts some space between it and the edge of the window */
 	padding-right: 20px; /* Puts some space between it and the edge of the window */
+	/* Okay, the whole scroll thing is seriously beyond my current capabilities. */
 }
 
-#header nav.top .quickcontact a {
-	color: #313131; /* Sets the link text to a nice, complementing even darker grey. */
+#header nav.main {
+	height: 66px; /* Sets the height of the "main" bar to 66px. */
+	line-height: 67px; /* Sets the location of the text in the "main" bar. */
+	text-transform: uppercase; /* Sets all of the text in the "main" bar to a uniform uppercase. */
+	background: #e1e3e4; /* Sets the background color of the "main" bar to a nice, darker grey. */
+	font-size: 14px; /* Sets main navigation bar font size to 14 */
+	
 }
 
-.right{ float:right; }
+#header nav.main .name {
+	font-size: 36px; /* Makes the font for my name really big. */
+}
 
+#header nav.main .navigation {
+	margin-top: -67px; /* Crude fix to positioning of links. */
+}
+
+#header nav.main .navigation a {
+	text-decoration: none; /* Removes link formatting from links in the "main" bar. */
+	
+}
+
+#header nav.main .navigation li {
+	padding: 0px 20px 0px 20px; /* Spacing the links out. */
+	border-left: 1px solid #d2d6d5; /* Puts a nice border between the links. */
+}
+
+#header nav.main .navigation li:first-child {
+	border-left: none; /* Removes the leftmost border. */
+}
+
+#header .navigation > li {
+	float: left; /* ** Fixes it for some reason. ** */
+}
+
+#sidebar {
+	background-attachment: scroll, fixed;
